@@ -1,0 +1,5 @@
+{
+  "name": "PongRank - Dashboard & Analytics",
+  "description": "Uma plataforma completa para gestão de rankings de Tênis de Mesa, agora com dashboard de estatísticas e análises detalhadas.",
+  "requestFramePermissions": ["microphone"]
+}

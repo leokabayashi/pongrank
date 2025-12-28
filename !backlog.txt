@@ -1,0 +1,7 @@
+- Adicionar unidades da escola
+- Jogadores podem estar associados a unidades
+- implementar autenticação do Firebase Auth e permitir OpenID Connect (porém anonimos não podem se registrar, um administrador deve fazê-lo)
+- Implementar painel de administração para gerenciar unidades, jogadores e partidas
+- Implementar painel de administração específico para unidades (pode haver administradores de unidades)
+- Ranking especifico das unidades podem ser acessados diretamente pela URL /unidade/{nome}
+- Clicar no nome do Jogador no "Ranking" leva a um perfil do jogador, com suas estatísticas (não mostrar dados pessoais, além nome, apelidos e unidades)
