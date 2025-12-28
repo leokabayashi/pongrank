@@ -281,7 +281,7 @@ export default function App() {
     e.preventDefault();
     if (!newPlayerName.trim() || !newPlayerNick.trim()) return;
 
-    const nicknameArray = newPlayerNick.split(',').map(n => n.trim()).filter(n => n !== '');
+    const nicknameArray = Array.from(new Set(newPlayerNick.split(',').map(n => n.trim()).filter(n => n !== '')));
 
     // Check duplicates (excluding current player if editing)
     const otherPlayers = playerToEdit ? players.filter(p => p.id !== playerToEdit.id) : players;
